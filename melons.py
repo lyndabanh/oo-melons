@@ -1,5 +1,7 @@
 """Classes for melon orders."""
 
+class AbstractMelonOrder():
+    """An abstract base class that other Melon Orders inherit from."""
 
 class DomesticMelonOrder():
     """A melon order within the USA."""
